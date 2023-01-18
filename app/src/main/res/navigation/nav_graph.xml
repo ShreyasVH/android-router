@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myHomeFragment">
+
+    <fragment
+        android:id="@+id/myHomeFragment"
+        android:name="com.example.router.ui.fragments.MyHomeFragment"
+        android:label="fragment_my_home"
+        tools:layout="@layout/fragment_my_home">
+
+    </fragment>
+
+    <fragment android:id="@+id/mySecondFragment"
+        android:name="com.example.router.ui.fragments.MySecondFragment"
+        android:label="fragment_my_second"
+        tools:layout="@layout/fragment_my_second">
+
+
+    </fragment>
+
+    <fragment android:id="@+id/myThirdFragment"
+        android:name="com.example.router.ui.fragments.MyThirdFragment"
+        android:label="fragment_my_third"
+        tools:layout="@layout/fragment_my_third">
+
+    </fragment>
+
+</navigation>
